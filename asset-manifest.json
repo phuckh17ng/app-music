@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/app-music/static/css/main.7126fd0b.css",
+    "main.js": "/app-music/static/js/main.fa31d68f.js",
+    "static/js/787.33c069aa.chunk.js": "/app-music/static/js/787.33c069aa.chunk.js",
+    "static/media/dung_goi_anh_day.mp3": "/app-music/static/media/dung_goi_anh_day.7c81a89549d9a30eb193.mp3",
+    "static/media/we-dont-talk-anymore.mp3": "/app-music/static/media/we-dont-talk-anymore.a83c47b0389c0ffbe050.mp3",
+    "static/media/sparkle.mp3": "/app-music/static/media/sparkle.a4f9b522a91049cdf0dd.mp3",
+    "static/media/luoiii.mp3": "/app-music/static/media/luoiii.950b7490808ec6cba8f9.mp3",
+    "static/media/khong_thich.mp3": "/app-music/static/media/khong_thich.8dc5dac21d347845b879.mp3",
+    "static/media/dung_goi_anh_day.png": "/app-music/static/media/dung_goi_anh_day.db58bee3ed261d760e42.png",
+    "static/media/sparkle-yourname1.png": "/app-music/static/media/sparkle-yourname1.9236e7bd980538227909.png",
+    "static/media/lowg.png": "/app-music/static/media/lowg.5b3359861bf7968f63d3.png",
+    "static/media/album-text-white.png": "/app-music/static/media/album-text-white.3459a4e5902d06e32956.png",
+    "static/media/music1.jpg": "/app-music/static/media/music1.9b15b3e8ded04e261e59.jpg",
+    "static/media/1-second-of-silence.mp3": "/app-music/static/media/1-second-of-silence.434cb1544ca911aafbb0.mp3",
+    "static/media/clickSoundEffect.wav": "/app-music/static/media/clickSoundEffect.9cdec81e6301818aa186.wav",
+    "index.html": "/app-music/index.html",
+    "main.7126fd0b.css.map": "/app-music/static/css/main.7126fd0b.css.map",
+    "main.fa31d68f.js.map": "/app-music/static/js/main.fa31d68f.js.map",
+    "787.33c069aa.chunk.js.map": "/app-music/static/js/787.33c069aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7126fd0b.css",
+    "static/js/main.fa31d68f.js"
+  ]
+}
