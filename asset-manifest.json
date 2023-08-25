@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/app-music/static/css/main.7126fd0b.css",
-    "main.js": "/app-music/static/js/main.fa31d68f.js",
+    "main.css": "/app-music/static/css/main.29686286.css",
+    "main.js": "/app-music/static/js/main.5331e58d.js",
     "static/js/787.33c069aa.chunk.js": "/app-music/static/js/787.33c069aa.chunk.js",
     "static/media/dung_goi_anh_day.mp3": "/app-music/static/media/dung_goi_anh_day.7c81a89549d9a30eb193.mp3",
     "static/media/we-dont-talk-anymore.mp3": "/app-music/static/media/we-dont-talk-anymore.a83c47b0389c0ffbe050.mp3",
@@ -16,12 +16,12 @@
     "static/media/1-second-of-silence.mp3": "/app-music/static/media/1-second-of-silence.434cb1544ca911aafbb0.mp3",
     "static/media/clickSoundEffect.wav": "/app-music/static/media/clickSoundEffect.9cdec81e6301818aa186.wav",
     "index.html": "/app-music/index.html",
-    "main.7126fd0b.css.map": "/app-music/static/css/main.7126fd0b.css.map",
-    "main.fa31d68f.js.map": "/app-music/static/js/main.fa31d68f.js.map",
+    "main.29686286.css.map": "/app-music/static/css/main.29686286.css.map",
+    "main.5331e58d.js.map": "/app-music/static/js/main.5331e58d.js.map",
     "787.33c069aa.chunk.js.map": "/app-music/static/js/787.33c069aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7126fd0b.css",
-    "static/js/main.fa31d68f.js"
+    "static/css/main.29686286.css",
+    "static/js/main.5331e58d.js"
   ]
 }
