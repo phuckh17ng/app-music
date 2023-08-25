@@ -1,48 +1,54 @@
 {
-  "name": "music-app",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "gsap": "^3.12.2",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-icons": "^4.10.1",
-    "react-loader-spinner": "^5.3.4",
-    "react-scripts": "5.0.1",
-    "resolve-url-loader": "^5.0.0",
-    "sass": "^1.66.1",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "prettier": "^3.0.2",
-    "prettier-plugin-tailwindcss": "^0.5.3",
-    "tailwindcss": "^3.3.3"
-  }
+	"name": "music-app",
+	"version": "0.1.0",
+	"private": true,
+	"homepage": "https://phuckh17ng.github.io/app-music",
+	"dependencies": {
+		"@testing-library/jest-dom": "^5.17.0",
+		"@testing-library/react": "^13.4.0",
+		"@testing-library/user-event": "^13.5.0",
+		"gsap": "^3.12.2",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-icons": "^4.10.1",
+		"react-loader-spinner": "^5.3.4",
+		"react-scripts": "5.0.1",
+		"sass": "^1.66.1",
+		"web-vitals": "^2.1.4"
+	},
+	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test",
+		"eject": "react-scripts eject"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"gh-pages": "^6.0.0",
+		"prettier": "^3.0.2",
+		"prettier-plugin-tailwindcss": "^0.5.3",
+		"tailwindcss": "^3.3.3"
+	},
+	"resolutions": {
+		"resolve-url-loader": "5.0.0"
+	}
 }
