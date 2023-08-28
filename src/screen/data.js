@@ -2,14 +2,6 @@ export const songs = [
   {
     backgroundColor: "#f196b0",
     textColor: "#000",
-    url: require("../music/1-second-of-silence.mp3"),
-    title: "",
-    backgroundImage: require("../image/music1.jpg"),
-    subTextImage: require("../image/album-text-white.png"),
-  },
-  {
-    backgroundColor: "#f196b0",
-    textColor: "#000",
     url: require("../music/we-dont-talk-anymore.mp3"),
     title: "We don't talk anymore",
     author: "Charlie Puth",
