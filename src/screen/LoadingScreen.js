@@ -1,33 +1,43 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import styles from "./LoadingScreen.module.css";
 
 const LoadingScreen = ({ loading, join, navigate }) => {
   console.log(navigate);
+  const [styleLogo, getStyleLogo] = useState({});
+  useEffect(() => {
+    if (!loading) {
+      getStyleLogo({
+        animationName: "unset",
+        opacity: 1,
+      });
+    }
+  }, [loading]);
   return (
     <div
       className={`${
         !navigate
           ? styles.loading_container
           : styles.loading_container_navigation
-      } w-[100vw] h-[100vh] flex justify-center items-center`}
+      } w-[100vw] h-[100vh] flex justify-center items-center fixed`}
     >
-      <div className="h-1/2 w-1/4 flex items-center justify-center flex-col z-10 overflow-hidden">
+      <div
+        className={`${
+          navigate && "!opacity-0"
+        } w-1/4 flex items-center justify-center h-1/2 flex-col z-10 overflow-hidden opacity-100 transition-all duration-300 ease-in-out`}
+      >
         <div
           className={`${styles.logo} ${
-            !loading
-              ? "!-translate-y-48 opacity-0"
-              : "!translate-y-12 opacity-100"
+            loading ? "translate-y-6" : "translate-y-0"
           }`}
+          style={styleLogo}
         >
           phuckh17ng
         </div>
         <div
           onClick={join}
-          className={`${
-            styles.join
-          } cursor-pointer transition-transform opacity-0 delay-500 duration-1000 border-2 rounded-full w-24 h-24 flex justify-center items-center border-black translate-y-56 ${
-            !loading && "!-translate-y-6 !opacity-100"
-          }`}
+          className={`${styles.join} ${
+            loading ? "opacity-0 translate-y-6" : "opacity-100 translate-y-0"
+          } cursor-pointer border-2 rounded-3xl px-9 py-1 flex justify-center items-center border-black`}
         >
           <span className={styles.button}>Join!</span>
         </div>

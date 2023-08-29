@@ -1,21 +1,23 @@
 .loading_container {
-  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
-  transition: all 1.5s cubic-bezier(0, 1.14, 0.58, 1);
+  background-color: white;
+  /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%); */
   overflow: hidden;
+  z-index: 9999;
 }
 .loading_container_navigation {
-  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-  transition: all 1.5s cubic-bezier(0, 1.14, 0.58, 1);
+  /* clip-path: polygon(0 0, 100% 0, 100% 0, 0 0); */
+  transition: height 0.5s cubic-bezier(1, 0, 1, 0.54);
   overflow: hidden;
   height: 0px !important;
+  z-index: 9999;
+  background-color: white;
 }
 
 .logo {
   font-family: "Pacifico", cursive;
-  animation: logoBlink infinite 2s linear alternate;
-  transition: transform 1s cubic-bezier(0.75, 1.5, 1, 0.9);
-
-  @apply text-2xl z-0 transition-transform duration-1000;
+  animation: logoBlink infinite 2.5s linear alternate;
+  transition: transform 0.5s cubic-bezier(0.75, 1.5, 1, 0.9);
+  @apply text-2xl z-0 transition-transform duration-1000 mb-6;
 }
 @keyframes logoBlink {
   from {
@@ -31,11 +33,17 @@
 }
 
 .join {
-  transition: transform 1s cubic-bezier(0.75, 1.5, 1, 0.9) !important;
+  transition-property: transform, opacity, background, color;
+  transition-duration: 0.5s, 0.5s, 0.25s, 0.25s;
+  transition-timing-function: ease-in-out, ease-in-out, ease-out, ease-in;
+  transition-delay: 0s, 0s, 0s, 0s;
+  /* transition: opacity 0.5s ease-in-out;
+  transition: transform 0.5s cubic-bezier(0.75, 1.5, 1, 0.9);
+  transition: background 0.5s; */
+  background: white;
 }
 
 .join:hover {
-  transition: all 0.15s ease-in;
   background: #000;
   color: white;
 }
