@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/app-music/static/css/main.8809c2a5.css",
+    "main.css": "/app-music/static/css/main.dbaf3f85.css",
     "main.js": "/app-music/static/js/main.28dd4691.js",
     "static/js/787.33c069aa.chunk.js": "/app-music/static/js/787.33c069aa.chunk.js",
     "static/media/dung_goi_anh_day.mp3": "/app-music/static/media/dung_goi_anh_day.7c81a89549d9a30eb193.mp3",
@@ -15,12 +15,12 @@
     "static/media/music1.jpg": "/app-music/static/media/music1.9b15b3e8ded04e261e59.jpg",
     "static/media/clickSoundEffect.wav": "/app-music/static/media/clickSoundEffect.9cdec81e6301818aa186.wav",
     "index.html": "/app-music/index.html",
-    "main.8809c2a5.css.map": "/app-music/static/css/main.8809c2a5.css.map",
+    "main.dbaf3f85.css.map": "/app-music/static/css/main.dbaf3f85.css.map",
     "main.28dd4691.js.map": "/app-music/static/js/main.28dd4691.js.map",
     "787.33c069aa.chunk.js.map": "/app-music/static/js/787.33c069aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8809c2a5.css",
+    "static/css/main.dbaf3f85.css",
     "static/js/main.28dd4691.js"
   ]
 }
