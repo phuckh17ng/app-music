@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/app-music/static/css/main.2df600d4.css",
-    "main.js": "/app-music/static/js/main.58faefbc.js",
+    "main.css": "/app-music/static/css/main.d5f40605.css",
+    "main.js": "/app-music/static/js/main.f712efc7.js",
     "static/js/787.33c069aa.chunk.js": "/app-music/static/js/787.33c069aa.chunk.js",
     "static/media/nuoc-mat-em-lau-bang-tinh-yeu-moi.mp3": "/app-music/static/media/nuoc-mat-em-lau-bang-tinh-yeu-moi.6a1f159a8ecd2d63ef00.mp3",
     "static/media/dung_goi_anh_day.mp3": "/app-music/static/media/dung_goi_anh_day.7c81a89549d9a30eb193.mp3",
@@ -21,12 +21,12 @@
     "static/media/music1.jpg": "/app-music/static/media/music1.9b15b3e8ded04e261e59.jpg",
     "static/media/clickSoundEffect.wav": "/app-music/static/media/clickSoundEffect.9cdec81e6301818aa186.wav",
     "index.html": "/app-music/index.html",
-    "main.2df600d4.css.map": "/app-music/static/css/main.2df600d4.css.map",
-    "main.58faefbc.js.map": "/app-music/static/js/main.58faefbc.js.map",
+    "main.d5f40605.css.map": "/app-music/static/css/main.d5f40605.css.map",
+    "main.f712efc7.js.map": "/app-music/static/js/main.f712efc7.js.map",
     "787.33c069aa.chunk.js.map": "/app-music/static/js/787.33c069aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2df600d4.css",
-    "static/js/main.58faefbc.js"
+    "static/css/main.d5f40605.css",
+    "static/js/main.f712efc7.js"
   ]
 }
